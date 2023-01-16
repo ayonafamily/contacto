@@ -1,7 +1,7 @@
 const autor = () => {
     const fecha = new Date();
-    const author = "<a href='http//jorgeayona.com' target='_blank' title='Sitio de Jorge Ayona'><em>Jorge Ayona</em></a>";
-    const empresa="Constructora Grenco";    
+    const author = "<a href='http//jorgeayona.com' target='_blank' title='Sitio de Jorge Ayona'><em><span  style='color: #339999;'>Jorge Ayona</span></em></a>";
+    const empresa="Alto Nivel Digital";    
     let mes = "";
       if(fecha.getMonth()==0){
         mes = "Enero";
