@@ -1,0 +1,12 @@
+---
+deployment:
+      tasks:
+        - export DEPLOYPATH= /home/altonive/repositories/contacto 
+        - /bin/cp index.html $DEPLOYPATH                          
+        - /bin cp * $DEPLOYPATH                      
+        - /bin cp /css/* $DEPLOYPATH           
+        - /bin cp /js/* $DEPLOYPATH           
+        - /bin cp /img/* $DEPLOYPATH           
+        - /bin/cp -r * $DEPLOYPATH                       
+        
+        
