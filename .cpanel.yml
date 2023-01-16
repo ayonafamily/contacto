@@ -1,7 +1,7 @@
 ---
 deployment:
       tasks:
-        - export DEPLOYPATH= /home/altonive/repositories/contacto 
+        - export DEPLOYPATH= /home/altonive/contacto/public_html 
         - /bin/cp index.html $DEPLOYPATH                          
         - /bin cp * $DEPLOYPATH                      
         - /bin cp /css/* $DEPLOYPATH           
