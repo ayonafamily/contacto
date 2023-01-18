@@ -1,11 +1,12 @@
 {
-  "name": "cv-landing",
+  "name": "contacto",
   "version": "1.0.0",
   "description": "Landing page para el curriculum",
   "main": "index.js",
   "scripts": {
-    "dev":"lite-server",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "purgecss --css sass/custom.css --content index.html --output css/reducido.css"
   },
   "keywords": [
     "landing"
@@ -13,6 +14,7 @@
   "author": "jorge ayona",
   "license": "ISC",
   "dependencies": {
+    "bootstrap": "^5.2.3",
     "lite-server": "^2.6.1"
   }
 }

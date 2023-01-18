@@ -1,0 +1,40 @@
+
+img{
+    border-radius: 1.5% ;
+}
+
+img:hover {
+    opacity: 0.9;
+  }
+
+.informes {font-weight:600;}
+
+#fondoBoton {
+    background-color: 	#011603e8;
+    color: #fff;
+}
+
+#fondoBody{
+    background-color: rgb(253, 250, 250);
+}
+
+input , textarea{
+    background-color: rgb(253, 250, 250);
+    border: 1px solid #022904;
+}
+
+h1,h2,p,label {
+    color: #011a03e8;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+i{
+    color: #022904;  
+}
+
+#blanco{color: #fff;}
+
+@import "../node_modules/bootstrap/scss/bootstrap";
